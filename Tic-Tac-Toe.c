@@ -8,7 +8,7 @@ char userMark, computerMark, temp;
 int values[3][3]={{' ', ' ', ' '}, {' ', ' ', ' '}, {' ', ' ', ' '}};
 int firstTurn, row,column, rowPoints[3], columnPoints[3], diagonalPoints[2], nextPlay,move;
 
-void gameBoard();       //function prototypes
+void gameBoard();       //function prototypes are added here
 void start();
 void calculateRowPoints();
 void calculateColumnPoints();
